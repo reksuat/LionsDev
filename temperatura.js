@@ -13,12 +13,12 @@ if (escala=="c") {
     k= temperatura + 273;
 
     console.log(`escala de Celcius ${c}C° para Fahrenheit ${f}F°, e para Kelvin ${k}K`);
-} if (escala=="f") {
+} else if (escala=="f") {
     f=temperatura;
     c=(temperatura - 32) / 1.8;
     k=(temperatura-32) * 5 / 9 + 273; 
     console.log(`escala de Fahrenheit ${f}F° para Celcius ${c}C°, e para Kelvin ${k}K`);
-} if (escala=="k") {
+}  else if (escala=="k") {
     k=temperatura;
     c=temperatura - 273;
     f=(temperatura - 273) * 1.8 + 32;
